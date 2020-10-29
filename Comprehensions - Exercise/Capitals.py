@@ -1,0 +1,1 @@
+[print(f'{key} -> {value}') for key, value in {country: capital for country, capital in list(zip(input().split(', '), input().split(', ')))}.items()]
